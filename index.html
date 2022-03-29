@@ -10,9 +10,38 @@
 
   <body>
     <!-- header -->
-    <header></header>
+    <header>
+      <div class="header-item" id="score-container">
+        <p>View High Scores</p>
+      </div>
+      <div class="header-item" id="timer-container">
+        <p id="timer">Time: 0</p>
+      </div>
+    </header>
 
     <!-- main content -->
-    <main></main>
+    <main>
+      <!-- start screen -->
+      <section class="start-screen" id="start-screen">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+        <button id="start-quiz">Start Quiz</button>
+      </section>
+
+      <!-- quiz -->
+      <section class="quiz" id="quiz"></section>
+
+      <!-- end screen -->
+      <section class="end-screen" id="end-screen"></section>
+
+      <!-- high scores -->
+      <section class="high-scores" id="high-scores"></section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,22 @@
+/*
+  header
+*/
+header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50%;
+}
+
+.header-item {
+  text-align: center;
+  flex: 1;
+}
+
+/*
+  main screen
+*/
+.start-screen {
+  margin: 100px auto 0 auto;
+  width: 30%;
+  text-align: center;
+}
